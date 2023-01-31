@@ -20,3 +20,6 @@ Python module can be easily installed by using following command:
 6. ncbi-blast (v2.9.0+)
 
 # Installation
+Download
+
+git clone https://github.com/skbinfo/smAMPsTK.git
