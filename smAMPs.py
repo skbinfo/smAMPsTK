@@ -22,7 +22,7 @@ from Bio.SeqIO.FastaIO import SimpleFastaParser
 from orffinder import orffinder
 
 def makeArgParser():
-    parser = argparse.ArgumentParser(description='smAMPs.py: extract antimicrobial peptides from plant genomic data')
+    parser = argparse.ArgumentParser(description='smAMPs.py: extract antimicrobial peptides from plant transcriptome data')
     parser.add_argument('-out_dir', help="Output Files Directory; Default: current diretory")
     parser.add_argument('-domain', help="Include domain search for the translated peptides, if found then represented as a column in the result output table", dest='dmsearch', action='store_true')
     parser.add_argument('configfile', help="having path of input file i.e. genomic file (in FASTA format)", action='store')
