@@ -9,15 +9,21 @@ Python module can be easily installed by using following command:
 
 `pip3 install < module name > --user`
 
-2. MiPepid tool
+2. EMBOSS (v6.6.0) -transeq
 
-3. EMBOSS (v6.6.0) -transeq
+3. ncbi-blast (v2.9.0+) 
 
-4. GPSR package
+[Note: Python3, EMBOSS, and ncbi-blast are needed to be globally installed]
 
-5. SVM classify
+4. MiPepid tool 
 
-6. ncbi-blast (v2.9.0+)
+5. GPSR package 
+
+6. SVM classify
+
+[Note: MiPepid and GPSR package are provided as zip file. SVM classify is provided as a script]
+
+7. interproscan (v5.56-89.0)
 
 # Installation
 Download
