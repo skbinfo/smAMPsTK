@@ -27,7 +27,7 @@ def makeArgParser():
     parser.add_argument('-domain', help="Include domain search for the translated peptides, if found then represented as a column in the result output table", dest='dmsearch', action='store_true')
     parser.add_argument('configfile', help="having path of input file i.e. genomic file (in FASTA format)", action='store')
     parser.add_argument('-th', help="provide a threshold value (range lies between 0 to 1 OR 0 to -1) to classify result of SVM models.\nDefault: 0.0", dest= 'threshold', default='0.0', type=float, required=True)
-    parser.add_argument('-t', help="number of threads [default: 1]", dest='threads', default='1', type=int)
+    parser.add_argument('-t', help="number of threads [default: 70]", dest='threads', default='70', type=int)
     args = parser.parse_args()
     return args
 
@@ -231,7 +231,7 @@ if __name__ == '__main__':
     remove_d(out_path+'/pep_seq.tab', out_path+'/pep_seq_f.txt') 
       
 
-    MMPATH = sys.argv[0].replace('gh.py','')
+    MMPATH = sys.argv[0].replace('smAMPs.py','')
     if MMPATH == "":
         MMPATH = os.getcwd()
     else:
