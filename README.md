@@ -53,5 +53,14 @@ For domain search `-domain` argument is needed to be provided, like this:
 
 <code>python3 smAMPs.py config.ini -th 0 -domain </code>
 
+## 
 
+If you have any questions, bug reports, or suggestions, please e-mail
 
+Dr. Shailesh Kumar
+
+Staff Scientist, Bioinformatics Laboratory #202
+
+National Institute of Plant Genome Research (NIPGR), New Delhi
+
+shailesh@nipgr.ac.in
