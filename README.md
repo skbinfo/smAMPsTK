@@ -28,4 +28,16 @@ Python module can be easily installed by using following command:
 # Installation
 Download
 
-git clone https://github.com/skbinfo/smAMPsTK.git
+<code>git clone https://github.com/skbinfo/smAMPsTK.git</code>
+
+`cd smAMPsTK/`
+
+Installing MiPepid and GPSR:
+
+<code>unzip MiPepid-master.zip </code>
+
+<code>unzip gpsr.zip </code>
+
+
+
+
