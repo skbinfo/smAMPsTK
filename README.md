@@ -9,4 +9,14 @@ Python module can be easily installed by using following command:
 
 `pip3 install < module name > --user`
 
-2. 
+2. MiPepid tool
+
+3. EMBOSS (v6.6.0) -transeq
+
+4. GPSR package
+
+5. SVM classify
+
+6. ncbi-blast (v2.9.0+)
+
+# Installation
