@@ -38,6 +38,10 @@ Installing MiPepid and GPSR:
 
 <code>unzip gpsr.zip </code>
 
+[Note: GPSR will be used from util directory]
+
+# Usage
+First change the path of input file, MiPepid, InterProScan, and output folder in the provided config.ini file
 
 
 
