@@ -41,7 +41,17 @@ Installing MiPepid and GPSR:
 [Note: GPSR will be used from util directory]
 
 # Usage
-First change the path of input file, MiPepid, InterProScan, and output folder in the provided config.ini file
+First change the path of input file, MiPepid, InterProScan, and output folder in the provided `config.ini` file
+
+Once config file is set according to the user's path;
+
+For AMPs prediction from smORFs:
+
+<code>python3 smAMPs.py config.ini -th 0 </code>
+
+For domain search `-domain` argument is needed to be provided, like this:
+
+<code>python3 smAMPs.py config.ini -th 0 -domain </code>
 
 
 
