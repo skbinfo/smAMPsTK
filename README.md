@@ -9,3 +9,4 @@ Python module can be easily installed by using following command:
 
 `pip3 install < module name > --user`
 
+2. 
