@@ -54,7 +54,7 @@ For domain search `-domain` argument is needed to be provided, like this:
 <code>python3 smAMPs.py config.ini -th 0 -domain </code>
 
 ## Regarding the datasets
-`analysis_data.tar.gz` contains generated AMPs data of five plant organisms used in this paper. 
+`analysis_data.tar.gz` https://zenodo.org/record/7592940 contains generated AMPs data of five plant organisms used in this paper. 
 
 ## 
 
