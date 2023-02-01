@@ -1,5 +1,5 @@
 # smAMPsTK
-smAMPsTK is written in python to detect antimicrobial peptides from plants' transcriptome data. smAMPsTK detects peptides of four different activities i.e. antimicrobial, antibacterial, antifungal, and antiviral.
+__smAMPsTK__ is written in python to detect antimicrobial peptides from plants' transcriptome data. smAMPsTK detects peptides of four different activities i.e. antimicrobial, antibacterial, antifungal, and antiviral.
 # Dependencies
 1. python3
 
@@ -54,7 +54,10 @@ For domain search `-domain` argument is needed to be provided, like this:
 python3 smAMPs.py config.ini -th 0 -domain 
 ```
 ## Regarding the datasets
-`analysis_data.tar.gz` https://zenodo.org/record/7592940 contains generated AMPs data of five plant organisms used in this paper. 
+
+<a href="https://doi.org/10.5281/zenodo.7592940"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.7592940.svg" alt="DOI"></a>
+
+`analysis_data.tar.gz` file on aforementioned zenodo link contains generated AMPs data of five plant organisms used in this paper. 
 
 ## 
 
