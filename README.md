@@ -6,9 +6,9 @@ smAMPsTK is written in python to detect antimicrobial peptides from plants' tran
 Python modules: orfipy (v0.0.4), orffinder (v1.8), pandas (v1.1.5), configparser (v5.2.0), biopython (v1.79) 
 
 Python module can be easily installed by using following command:
-
-`pip3 install < module name > --user`
-
+```
+pip3 install < module name > --user
+```
 2. EMBOSS (v6.6.0) -transeq
 
 3. ncbi-blast (v2.9.0+) 
@@ -27,17 +27,17 @@ Python module can be easily installed by using following command:
 
 # Installation
 Download
+```
+git clone https://github.com/skbinfo/smAMPsTK.git
 
-<code>git clone https://github.com/skbinfo/smAMPsTK.git</code>
-
-`cd smAMPsTK/`
-
+cd smAMPsTK/
+```
 Installing MiPepid and GPSR:
+```
+unzip MiPepid-master.zip 
 
-<code>unzip MiPepid-master.zip </code>
-
-<code>unzip gpsr.zip </code>
-
+unzip gpsr.zip 
+```
 [Note: GPSR will be used from util directory]
 
 # Usage
@@ -46,13 +46,13 @@ First change the path of input file, MiPepid, InterProScan, and output folder in
 Once config file is set according to the user's path;
 
 For AMPs prediction from smORFs:
-
-<code>python3 smAMPs.py config.ini -th 0 </code>
-
+```
+python3 smAMPs.py config.ini -th 0 
+```
 For domain search `-domain` argument is needed to be provided, like this:
-
-<code>python3 smAMPs.py config.ini -th 0 -domain </code>
-
+```
+python3 smAMPs.py config.ini -th 0 -domain 
+```
 ## Regarding the datasets
 `analysis_data.tar.gz` https://zenodo.org/record/7592940 contains generated AMPs data of five plant organisms used in this paper. 
 
