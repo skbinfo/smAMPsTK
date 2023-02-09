@@ -3,7 +3,7 @@
 This program is intended to extract a number of antimicrobial peptides from the given 
 set of transcriptomic data (in FASTA format). 
 
-smAMPs.py: A pipeline for identification of smORF encoding Antimicrobal peptides
+smAMPsTK: A pipeline for identification of smORF encoding Antimicrobal peptides
 v1.0 19/10/2022
 Author: Mohini Jaiswal
 email: mohini12jaiswal@nipgr.ac.in
